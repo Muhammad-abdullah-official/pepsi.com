@@ -1,0 +1,366 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: Sofia Pro Regular, Helvetica Neue, Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0025ff;
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 999;
+}
+
+nav img {
+    height: 60px;
+    width: 60px;
+    margin-right: 14px;
+
+}
+
+nav img:hover {
+    animation: bounce 0.5s infinite;
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        padding: 7px;
+    }
+
+
+    50% {
+        padding: 0px;
+    }
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 95%;
+    gap: 50px;
+    margin: 15px 36px;
+}
+
+nav button {
+    border: 2px solid white;
+    background-color: #0025ff;
+    font-weight: bolder;
+    font-size: 14px;
+    font-weight: 800;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 20px;
+    cursor: pointer;
+    transition: .1s ease-out, color .1s ease-out;
+}
+
+nav button:hover {
+    background-color: white;
+    color: #0025ff;
+}
+
+nav div li {
+    list-style-type: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+/* nav end */
+
+section {
+    margin: 0px;
+}
+
+.morale video {
+    width: 100%;
+    height: 100%;
+    margin-top: 90px;
+    margin-bottom: 0px;
+}
+
+/* page 1 one */
+.page1 {
+    height: 1108px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    bottom: 10px;
+}
+
+
+.page1 .part1 h2 {
+    color: white;
+    padding-top: 48px;
+    font-size: 70px;
+    line-height: 63px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.page1 .part1 h3 {
+    color: white;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 900;
+}
+
+.page1 .part1 .btn {
+    display: flex;
+    cursor: pointer;
+
+}
+
+.page1 .part1 button {
+    color: white;
+    background-color: #0025ff;
+    font-size: 48px;
+    font-weight: 900;
+    margin: auto;
+    padding: 20px;
+    margin-top: 52px;
+    margin-bottom: 67px;
+    cursor: pointer;
+}
+
+
+.page1 img {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+/* page 1 end */
+
+/* page 2 */
+
+.page2 {
+    height: 1270px;
+    width: 100%;
+    background-color: black;
+    margin: 0px;
+    position: relative;
+    bottom: 10px;
+}
+
+.page2 .part1 .h-blue {
+    color: #0025ff;
+}
+
+
+.page2 .part1 h2 {
+    color: white;
+    font-size: 70px;
+    font-weight: 900;
+    text-align: center;
+}
+
+
+.page2 .part1 h3 {
+    color: white;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 900;
+}
+
+.page2 img {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.page2 .text {
+    color: white;
+    text-align: center;
+    margin: 10px 50px;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+/* part 2 end */
+
+
+/* part 3 */
+
+.part3 {
+    position: relative;
+    bottom: 10px;
+}
+
+.part3 video {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+/* part 3 end */
+
+/* part 4 */
+
+.part4 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    bottom: 20px;
+}
+
+.part4 .background {
+    background-image: url('assets/images/background.png');
+    display: flex;
+}
+
+.part4 .background .rightside {
+    width: 30%;
+}
+
+.part4 .background .rightside img {
+    width: 800px;
+    height: 590px;
+    position: relative;
+    /* top: 88px; */
+}
+
+.part4 .background .rightside {
+    width: 70%;
+}
+
+.part4 .background .leftside img {
+    width: 100%;
+    height: 430px;
+    position: relative;
+    right: 150px;
+    top: 10px;
+}
+
+.part4 .background .leftside .btn {
+    display: flex;
+    cursor: pointer;
+}
+
+.part4 .background .leftside button {
+    position: relative;
+    bottom: 15px;
+    border: 2px solid white;
+    background-color: #cbcbcd00;
+    font-weight: bolder;
+    font-size: 16px;
+    font-weight: 800;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 25px;
+    cursor: pointer;
+    transition: .1s ease-out, color .1s ease-out;
+}
+
+.part4 .background .leftside button:hover {
+    background-color: white;
+    color: #0025ff;
+}
+
+/* part 4 end */
+
+/* part 5 */
+
+.part5 {
+    position: relative;
+    /* bottom: 40px; */
+    background-color: black;
+    height: 330px;
+    width: 100%;
+}
+
+.part5 h2 {
+    color: #0025ff;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.part5 .container {
+    display: flex;
+    border: 4px solid #0025ff;
+    margin: 15px 53px;
+    overflow: hidden;
+    position: relative;
+}
+
+.part5 .container img {
+    transition: transform 0.4s ease-in-out, filter 0.4s ease-in-out;
+    width: 191px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.part5 .container img:hover {
+    transform: scale(1.1) rotate(7deg);
+    filter: grayscale(50%);
+    opacity: 0.5;
+}
+
+/* part5 5 end */
+
+/* footer */
+
+.footer {
+    background-color: #0025ff;
+    height: 216px;
+    width: 100%;
+    padding: 36px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    /* bottom: 40px; */
+    color: white;
+    margin: 0px;
+}
+
+.footer .col1 img {
+    width: 101px;
+    height: 101px;
+}
+
+.footer .col1 img:hover {
+    animation: bounce 0.5s infinite;
+}
+
+.footer .col2 h4,
+.col3 h4,
+.col4 h4 {
+    padding: 3px;
+    font-weight: 800;
+}
+
+.footer .col2 h4:hover,
+.col3 h4:hover,
+.col4 h4:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.footer .col5 i {
+    padding: 0px 5px;
+    font-size: 30px;
+}
+
+.footer .col5 i:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
